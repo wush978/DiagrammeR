@@ -155,5 +155,7 @@ mermaid <- function(diagram = "",
     x = x,
     width = width,
     height = height,
-    package = "DiagrammeR")
+    package = "DiagrammeR", 
+    ...
+  )
 }
